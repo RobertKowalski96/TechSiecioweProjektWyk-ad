@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="362.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.LoginController">
+   <children>
+      <VBox layoutX="94.0" layoutY="92.0" prefHeight="170.0" prefWidth="233.0">
+         <children>
+            <Label text="email" />
+            <TextField fx:id="textFieldEmail" promptText="email" text="229715@student.pwr.edu.pl" />
+            <Label text="password" />
+            <PasswordField fx:id="passwordFieldPassword" promptText="password" text="229715" />
+            <Button fx:id="buttonLogin" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="285.0" text="Confirm" />
+            <Label fx:id="error" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
